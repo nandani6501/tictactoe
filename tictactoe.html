@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>Tic Tac Toe</h1>
+        
+        <span id="x" >X's Turn</span>
+        <span id="o">O's Turn</span><br>
+        
+        <table>
+            <tr>
+                <!-- <td id="b1" tdval="nandani" onclick="click1(this)" ></td> -->
+                <td id="b1" onclick="click1()" ></td>
+                <td id="b2" onclick="click2()" ></td>
+                <td id="b3" onclick="click3()" ></td>
+            </tr>
+            <tr>
+                <td id="b4" onclick="click4()" ></td>
+                <td id="b5" onclick="click5()" ></td>
+                <td id="b6" onclick="click6()" ></td>
+            </tr>
+            <tr>
+                <td id="b7" onclick="click7()" ></td>
+                <td id="b8" onclick="click8()" ></td>
+                <td id="b9" onclick="click9()" ></td>
+            </tr>
+        </table><br>
+       <input type="reset" value="Reset" onclick="reset()">
+        
+    </div>
+    <script src="tictactoe.js"></script>
+</body>
+</html>
